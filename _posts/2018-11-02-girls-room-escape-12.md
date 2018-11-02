@@ -1,0 +1,12 @@
+---
+layout: posts
+title: "Girls Room Escape 12"
+tags: [escape, games, rooftop, best, free, online, games, oyna, game, free, games, play, play, games]
+image: "https://img.gamedistribution.com/56ca3ee8fd6247279250992beeaf4f3b.jpg"
+summary: "mouse interaction  free online games oyna game free games play play games"
+category: "Action"
+---
+
+girls room escape 11 is new escape games from dressup2girls com escape from girl room by finding all the clues and objects carefully hidden in room match all the objects find the correctly combinations and solve the puzzles with the clues finally escape from the little girl room good luck
+
+<iframe width="100%" height="480px;" src="https://flash.gamedistribution.com?game=56ca3ee8fd6247279250992beeaf4f3b"></iframe>

@@ -15,12 +15,11 @@
 # in the templates via {{ site.myvariable }}.
 title: RPlayGame Free Play Games
 email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Free Play Game
-baseurl: "https://rplaygame.com/" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+description: Free Play Game
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://rplaygame.com" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: 
+github_username:  
 permalink: :title
 development: false
 

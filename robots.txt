@@ -1,1 +1,2 @@
-Sitemap: http://rplaygame.com/sitemap.xml
+User-Agent: *
+Sitemap: https://rplay.com/sitemap.xml

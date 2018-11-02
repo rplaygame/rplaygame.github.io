@@ -1,0 +1,12 @@
+---
+layout: posts
+title: "Floor is Lava VS Dancing Hotdog"
+tags: [cookies, dancing, escape, fashion, floor, food, free, fun, game, gamedistribution, games, jump, jumping, jumps, kids, ladybug, lava, play, hotdog, free, online, games, oyna, game, free, games, play, play, games]
+image: "https://img.gamedistribution.com/579320b07e00462cb133c712c3d06e0c.jpg"
+summary: "use mouse and keyboard easy controls  free online games oyna game free games play play games"
+category: "Action"
+---
+
+dancing hotdog the floor is lava f g have fun with the dancing hotdog and care the floor is lava the famous hot dog now more fun than ever in dancing hotdog with more grace than ever with different characters to have fun you can choose between a fidget spinner bottle flip and more your objective will be to dodge the lava since the floor is lava and it will go up slowly until take all the ketchup that you can and jumps without stopping a challenge that will leave you with the open mouth the sausage looks like this in a dancing karaoke different scenarios for your characters with fun animations you ll have a great time with hot dog dancing we have seen everything cakes ice cream monsters but now joins the party the super dancing hot dog in this challenge from usa us to all parts of the world characteristics unlock up to 9 different characters the famous dancing hotdog fidget spinner bottle flip among others unlock various super fun scenarios with animations that will not stop you from laughing dancing flowers flee the ground since the floor is lava and will burn you if you catch get all ketchups to earn points and share your skills with all your friends the biggest challenge of the summer a games for girls and boys as well as for all ages what are you waiting for are all your popular characters waiting for you which ones do you choose face if you get tired of the monsters you can play with the dancing hot dog with the game of the bottle flip or the fidget spinner we hope it will please everyone we appreciate your comments so that you can collaborate in making our games better have fun the floor is lava you are the king
+
+<iframe width="100%" height="480px;" src="https://html5.gamedistribution.com/579320b07e00462cb133c712c3d06e0c/"></iframe>

@@ -1,0 +1,21 @@
+menu:
+- title : Home
+  url   : /
+- title : Action
+  url   : /action-game
+- title : Adventure
+  url   : /adventure-game
+- title : Girls
+  url   : /girls-game
+- title : Puzzle
+  url   : /puzzle-game
+- title : Racing
+  url   : /racing-game
+- title : Skill
+  url   : /skill-game
+- title : Fun
+  url   : /fun-game
+- title : Dress Up
+  url   : /dress-up-game
+- title : Cooking
+  url   : /cooking-game

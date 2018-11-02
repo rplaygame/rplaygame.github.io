@@ -1,0 +1,337 @@
+---
+layout: default
+---
+
+<div class="mt-2 container">
+<img src="../assets/img/adhead.png" width="100%" height="200px;" alt="">
+</div>
+
+<div class="mt-2 mb-3 container">
+        <div class="row">
+                <div class="title-category">
+                        <span>Last Game</span>   
+                        </div>
+                {% for post in site.posts limit:8 %}	
+                <div class="mt-2 col-sm-3">
+                        <div class="card mb-1 shadow-sm">
+                          <a href="{{ post.url }}"><img class="card-img-top" src="{{ post.image }}" style="height:168px;"></a>
+                          <div class="card-body">
+                          <a href="{{ post.url }}">{{ post.title }}</a>
+                          </div>
+                        </div>
+                      </div>
+                {% endfor %}
+        </div>
+ </div>
+
+ 
+ <div class="mt-5 mb-3 container">
+        <div class="row">
+            
+          <div class="col-sm-8">
+              <div class="container">
+                  <div class="row">
+                      <div class="title-category">
+                         <a href="{{ site.url }}/puzzle-game"><span>Puzzle</span></a>     
+                         </div>
+                        {% for category in site.categories %}
+                        {% for posts in category %}
+                        {% for post in posts limit:8 %}
+                        {% if post.title and post.category == "Puzzle" %}
+                        <div class="col-sm-3">
+                          <div class="card mb-1 shadow-sm">
+                            <a href="{{ post.url }}"><img class="card-img-top" src="{{ post.image }}"></a>
+                            <div class="card-body">
+                            <a href="{{ post.url }}">{{ post.title }}</a>
+                            </div>
+                          </div>
+                        </div>
+                        {% endif %} 
+                        {% endfor %}
+                        {% endfor %}
+                        {% endfor %}
+                    </div>
+               </div>
+          </div>
+          <div class="mt-5 col-sm">
+              <img src="../assets/img/ad.png" width="100%" height="100%" alt="">
+            </div>
+        </div>
+      </div>
+
+ <div class="mt-5 container">
+    <div class="row">
+        <div class="mt-5 col-sm">
+            <img src="../assets/img/ad.png" width="100%" height="100%" alt="">
+          </div>
+      <div class="col-sm-8">
+          <div class="container">
+              <div class="row">
+                <div class="title-category">
+                    <a href="{{ site.url }}/action-game"><span>Action</span></a>     
+                    </div>
+                    {% for category in site.categories %}
+                    {% for posts in category %}
+                    {% for post in posts limit:8 %}
+                    {% if post.title and post.category == "Action" %}
+                    <div class="col-sm-3">
+                      <div class="card mb-1 shadow-sm">
+                        <a href="{{ post.url }}"><img class="card-img-top" src="{{ post.image }}"></a>
+                        <div class="card-body">
+                        <a href="{{ post.url }}">{{ post.title }}</a>
+                        </div>
+                      </div>
+                    </div>
+                    {% endif %} 
+                    {% endfor %}
+                    {% endfor %}
+                    {% endfor %}
+                </div>
+           </div>
+      </div>
+      
+    </div>
+  </div>
+
+  <div class="mt-5 container">
+      <div class="row">
+        <div class="col-sm-8">
+            <div class="container">
+                <div class="row">
+                    <div class="title-category">
+                        <a href="{{ site.url }}/adventure-game"><span>Adventure</span></a>     
+                        </div>
+                      {% for category in site.categories %}
+                      {% for posts in category %}
+                      {% for post in posts limit:8 %}
+                      {% if post.title and post.category == "Adventure" %}
+                      <div class="col-sm-3">
+                        <div class="card mb-1 shadow-sm">
+                          <a href="{{ post.url }}"><img class="card-img-top" src="{{ post.image }}"></a>
+                          <div class="card-body">
+                          <a href="{{ post.url }}">{{ post.title }}</a>
+                          </div>
+                        </div>
+                      </div>
+                      {% endif %} 
+                      {% endfor %}
+                      {% endfor %}
+                      {% endfor %}
+                  </div>
+             </div>
+        </div>
+        <div class="mt-5 col-sm">
+            <img src="../assets/img/ad.png" width="100%" height="100%" alt="">
+          </div>
+      </div>
+    </div>
+
+    <div class="mt-5 container">
+        <div class="row">
+            <div class="mt-5 col-sm">
+                <img src="../assets/img/ad.png" width="100%" height="100%" alt="">
+              </div>
+          <div class="col-sm-8">
+              <div class="container">
+                  <div class="row">
+                    <div class="title-category">
+                        <a href="{{ site.url }}/girls-game"><span>Girls</span></a>     
+                        </div>
+                        {% for category in site.categories %}
+                        {% for posts in category %}
+                        {% for post in posts limit:8 %}
+                        {% if post.title and post.category == "Girls" %}
+                        <div class="col-sm-3">
+                          <div class="card mb-1 shadow-sm">
+                            <a href="{{ post.url }}"><img class="card-img-top" src="{{ post.image }}"></a>
+                            <div class="card-body">
+                            <a href="{{ post.url }}">{{ post.title }}</a>
+                            </div>
+                          </div>
+                        </div>
+                        {% endif %} 
+                        {% endfor %}
+                        {% endfor %}
+                        {% endfor %}
+                    </div>
+               </div>
+          </div>
+          
+        </div>
+      </div>
+    
+      <div class="mt-5 container">
+          <div class="row">
+              
+            <div class="col-sm-8">
+                <div class="container">
+                    <div class="row">
+                        <div class="title-category">
+                            <a href="{{ site.url }}/cooking-game"><span>Cooking</span></a>     
+                            </div>
+                          {% for category in site.categories %}
+                          {% for posts in category %}
+                          {% for post in posts limit:8 %}
+                          {% if post.title and post.category == "Cooking" %}
+                          <div class="col-sm-3">
+                            <div class="card mb-1 shadow-sm">
+                              <a href="{{ post.url }}"><img class="card-img-top" src="{{ post.image }}"></a>
+                              <div class="card-body">
+                              <a href="{{ post.url }}">{{ post.title }}</a>
+                              </div>
+                            </div>
+                          </div>
+                          {% endif %} 
+                          {% endfor %}
+                          {% endfor %}
+                          {% endfor %}
+                      </div>
+                 </div>
+            </div>
+            <div class="mt-5 col-sm">
+                <img src="../assets/img/ad.png" width="100%" height="100%" alt="">
+              </div>
+          </div>
+        </div>
+
+
+        <div class="mt-5 container">
+            <div class="row">
+                <div class="mt-5 col-sm">
+                    <img src="../assets/img/ad.png" width="100%" height="100%" alt="">
+                  </div>
+              <div class="col-sm-8">
+                  <div class="container">
+                      <div class="row">
+                        <div class="title-category">
+                            <a href="{{ site.url }}/dress-up-game"><span>Dress Up</span></a>     
+                            </div>
+                            {% for category in site.categories %}
+                            {% for posts in category %}
+                            {% for post in posts limit:8 %}
+                            {% if post.title and post.category == "Dress Up" %}
+                            <div class="col-sm-3">
+                              <div class="card mb-1 shadow-sm">
+                                <a href="{{ post.url }}"><img class="card-img-top" src="{{ post.image }}"></a>
+                                <div class="card-body">
+                                <a href="{{ post.url }}">{{ post.title }}</a>
+                                </div>
+                              </div>
+                            </div>
+                            {% endif %} 
+                            {% endfor %}
+                            {% endfor %}
+                            {% endfor %}
+                        </div>
+                   </div>
+              </div>
+              
+            </div>
+          </div>
+ 
+          <div class="mt-5 mb-3 container">
+              <div class="row">
+                  
+                <div class="col-sm-8">
+                    <div class="container">
+                        <div class="row">
+                            <div class="title-category">
+                                <a href="{{ site.url }}/fun-game"><span>Fun</span></a>     
+                                </div>
+                              {% for category in site.categories %}
+                              {% for posts in category %}
+                              {% for post in posts limit:8 %}
+                              {% if post.title and post.category == "Fun" %}
+                              <div class="col-sm-3">
+                                <div class="card mb-1 shadow-sm">
+                                  <a href="{{ post.url }}"><img class="card-img-top" src="{{ post.image }}"></a>
+                                  <div class="card-body">
+                                  <a href="{{ post.url }}">{{ post.title }}</a>
+                                  </div>
+                                </div>
+                              </div>
+                              {% endif %} 
+                              {% endfor %}
+                              {% endfor %}
+                              {% endfor %}
+                          </div>
+                     </div>
+                </div>
+                <div class="mt-5 col-sm">
+                    <img src="../assets/img/ad.png" width="100%" height="100%" alt="">
+                  </div>
+              </div>
+            </div>
+
+            <div class="mt-5 container">
+                <div class="row">
+                    <div class="mt-5 col-sm">
+                        <img src="../assets/img/ad.png" width="100%" height="100%" alt="">
+                      </div>
+                  <div class="col-sm-8">
+                      <div class="container">
+                          <div class="row">
+                            <div class="title-category">
+                                <a href="{{ site.url }}/skill-game"><span>Skill</span></a>     
+                                </div>
+                                {% for category in site.categories %}
+                                {% for posts in category %}
+                                {% for post in posts limit:8 %}
+                                {% if post.title and post.category == "Skill" %}
+                                <div class="col-sm-3">
+                                  <div class="card mb-1 shadow-sm">
+                                    <a href="{{ post.url }}"><img class="card-img-top" src="{{ post.image }}"></a>
+                                    <div class="card-body">
+                                    <a href="{{ post.url }}">{{ post.title }}</a>
+                                    </div>
+                                  </div>
+                                </div>
+                                {% endif %} 
+                                {% endfor %}
+                                {% endfor %}
+                                {% endfor %}
+                            </div>
+                       </div>
+                  </div>
+                  
+                </div>
+              </div>
+
+            <div class="mt-5 mb-3 container">
+                <div class="row">
+                    
+                  <div class="col-sm-8">
+                      <div class="container">
+                          <div class="row">
+                              <div class="title-category">
+                                  <a href="{{ site.url }}/racing-game"><span>Racing</span></a>     
+                                  </div>
+                                {% for category in site.categories %}
+                                {% for posts in category %}
+                                {% for post in posts limit:8 %}
+                                {% if post.title and post.category == "Racing" %}
+                                <div class="col-sm-3">
+                                  <div class="card mb-1 shadow-sm">
+                                    <a href="{{ post.url }}"><img class="card-img-top" src="{{ post.image }}"></a>
+                                    <div class="card-body">
+                                    <a href="{{ post.url }}">{{ post.title }}</a>
+                                    </div>
+                                  </div>
+                                </div>
+                                {% endif %} 
+                                {% endfor %}
+                                {% endfor %}
+                                {% endfor %}
+                            </div>
+                       </div>
+                  </div>
+                  <div class="mt-5 col-sm">
+                      <img src="../assets/img/ad.png" width="100%" height="100%" alt="">
+                    </div>
+                </div>
+              </div>
+   
+   
+<div class="mt-2 mb-2 container">
+    <img src="../assets/img/adhead.png" width="100%" height="200px;" alt="">
+    </div>
